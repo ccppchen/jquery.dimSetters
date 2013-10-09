@@ -6,7 +6,7 @@ A jQuery plugin that extends innerWidth(), innerHeight(), outerWidth(), and oute
 API
 ---
 
-```javascript
+```JavaScript
 $(element).innerWidth ()
 	/* http://api.jquery.com/innerWidth/ */
 
