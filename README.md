@@ -56,6 +56,6 @@ $(element).outerHeight (boolean includeMargin, number height)
 
 Limitations
 -----------
-* Widths and heights must be pixel values. Values like `50%` or `6em` are interpreted as `50px` and 6px`, respectively.
+* Widths and heights must be pixel values. Values like `50%` or `6em` are interpreted as `50px` and `6px`, respectively.
 * Margins, borders, and padding must be pixel values as well. Values like `border-width: 2%` or `margin: 1em` are interpreted as `2px` and `1px`, respectively.
 * With outerWidth() and outerHeight(), if you intend to obtain the values including margin using the getters, you must explicitly pass a boolean rather than another type that evaluates to boolean. You can convert any variable or expression to boolean with `!!`, e.g.: `var margins = 1; $(element).outerWidth(!!margins)`.
